@@ -1,0 +1,4 @@
+X = human_dummies.drop("How successful has this tutorial been so far?", axis=1)
+y = human_dummies["How successful has this tutorial been so far?"] >= 8
+y.head()
+X.iloc[:5,:5]

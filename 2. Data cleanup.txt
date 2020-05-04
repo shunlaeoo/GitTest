@@ -1,0 +1,4 @@
+humans.head(4)
+humans.describe(include=['object', 'int', 'float'])
+human_dummies = pd.get_dummies(humans)
+list(human_dummies.columns)
